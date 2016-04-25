@@ -18,6 +18,8 @@
 		18E9357C1CBE347800A97828 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9357B1CBE347800A97828 /* MainTabBarViewController.swift */; };
 		18E9357E1CBE46CA00A97828 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9357D1CBE46CA00A97828 /* MyInfoViewController.swift */; };
 		18E935801CBE46DC00A97828 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9357F1CBE46DC00A97828 /* MoreViewController.swift */; };
+		18FFCB1A1CCDF82C005250C5 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFCB191CCDF82C005250C5 /* CategoryItemView.swift */; };
+		18FFCB1C1CCDFC69005250C5 /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFCB1B1CCDFC69005250C5 /* CategoryHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		18E9357B1CBE347800A97828 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		18E9357D1CBE46CA00A97828 /* MyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
 		18E9357F1CBE46DC00A97828 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		18FFCB191CCDF82C005250C5 /* CategoryItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		18FFCB1B1CCDFC69005250C5 /* CategoryHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 				18E9357D1CBE46CA00A97828 /* MyInfoViewController.swift */,
 				18E9357F1CBE46DC00A97828 /* MoreViewController.swift */,
 				18E9357B1CBE347800A97828 /* MainTabBarViewController.swift */,
+				18FFCB191CCDF82C005250C5 /* CategoryItemView.swift */,
+				18FFCB1B1CCDFC69005250C5 /* CategoryHeader.swift */,
 			);
 			path = MeiTuan;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E935771CBE33CF00A97828 /* HomeViewController.swift in Sources */,
+				18FFCB1C1CCDFC69005250C5 /* CategoryHeader.swift in Sources */,
+				18FFCB1A1CCDF82C005250C5 /* CategoryItemView.swift in Sources */,
 				18E935791CBE341200A97828 /* ShopViewController.swift in Sources */,
 				18E9357E1CBE46CA00A97828 /* MyInfoViewController.swift in Sources */,
 				18E9357C1CBE347800A97828 /* MainTabBarViewController.swift in Sources */,
@@ -501,6 +509,7 @@
 				18E9356B1CBE2AE300A97828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9356C1CBE2AE300A97828 /* Build configuration list for PBXNativeTarget "MeiTuanTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +518,7 @@
 				18E9356E1CBE2AE300A97828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9356F1CBE2AE300A97828 /* Build configuration list for PBXNativeTarget "MeiTuanUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +527,7 @@
 				18E935711CBE2AE300A97828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

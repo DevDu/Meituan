@@ -9,10 +9,18 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.edgesForExtendedLayout = .None;
+//        self.edgesForExtendedLayout = .None
         self.view.backgroundColor = UIColor.darkGrayColor()
+        
+        let cateheaderFrame : CGRect =  CGRectMake(0, 0, CScreenWidth, 200)
+        let cateHeader:CategoryHeader = CategoryHeader(frame: cateheaderFrame)
+        self.view.addSubview(cateHeader)
 
         // Do any additional setup after loading the view.
     }
@@ -31,6 +39,7 @@ class HomeViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
+
     */
 
 }

@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame:CScreenBounds)
         window?.backgroundColor = UIColor.whiteColor()
         window?.rootViewController = rootVC
-        window?.makeKeyAndVisible();;;
+        window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }

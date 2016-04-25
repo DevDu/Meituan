@@ -12,7 +12,7 @@ class MainTabBarViewController: UITabBarController {
         super.viewDidLoad()
         let homeVC =  HomeViewController()
         let shopVC =  ShopViewController()
-        let mineVC   =  MyInfoViewController()
+        let mineVC =  MyInfoViewController()
         let moreVC =  MoreViewController()
 
         UITabBarItem.appearance().setTitleTextAttributes(
