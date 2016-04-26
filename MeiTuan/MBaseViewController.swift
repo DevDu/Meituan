@@ -1,18 +1,21 @@
 //
-//  MyInfoViewController.swift
+//  MBaseViewController.swift
 //  MeiTuan
 //
-//  Created by apple on 16/4/13.
+//  Created by apple on 16/4/26.
 //  Copyright © 2016年 Duxuechao. All rights reserved.
 //
 
 import UIKit
 
-class MyInfoViewController: MBaseViewController {
+class MBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.grayColor()
+
+        self.navigationController?.navigationBar.barTintColor = CBaseColor
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+        
         // Do any additional setup after loading the view.
     }
 

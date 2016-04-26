@@ -8,17 +8,16 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: MBaseViewController {
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.edgesForExtendedLayout = .None;
-//        self.edgesForExtendedLayout = .None
         self.view.backgroundColor = UIColor.darkGrayColor()
         
-        let cateheaderFrame : CGRect =  CGRectMake(0, 0, CScreenWidth, 200)
+        let cateheaderFrame : CGRect =  CGRectMake(0, 0, CScreenWidth, 150)
         let cateHeader:CategoryHeader = CategoryHeader(frame: cateheaderFrame)
         self.view.addSubview(cateHeader)
 

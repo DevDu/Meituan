@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MoreViewController: UIViewController {
+class MoreViewController: MBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
