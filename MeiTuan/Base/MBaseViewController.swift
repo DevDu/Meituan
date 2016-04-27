@@ -1,26 +1,22 @@
 //
-//  HomeViewController.swift
+//  MBaseViewController.swift
 //  MeiTuan
 //
-//  Created by apple on 16/4/13.
+//  Created by apple on 16/4/26.
 //  Copyright © 2016年 Duxuechao. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: MBaseViewController {
-    
+class MBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.edgesForExtendedLayout = .None;
-        self.view.backgroundColor = UIColor.darkGrayColor()
-        
-        let cateheaderFrame : CGRect =  CGRectMake(0, 0, CScreenWidth, 150)
-        let cateHeader:CategoryHeader = CategoryHeader(frame: cateheaderFrame)
-        self.view.addSubview(cateHeader)
 
+        self.navigationController?.navigationBar.barTintColor = CBaseColor
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
         // Do any additional setup after loading the view.
     }
 
@@ -38,7 +34,6 @@ class HomeViewController: MBaseViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-
     */
 
 }

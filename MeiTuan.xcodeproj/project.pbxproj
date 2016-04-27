@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		181F65241CCF8A69005DC6C0 /* MBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F65231CCF8A69005DC6C0 /* MBaseViewController.swift */; };
-		18E935451CBE2AE200A97828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E935441CBE2AE200A97828 /* AppDelegate.swift */; };
+		186EA1011CD05F9F00B8C342 /* MBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA0EF1CD05F9F00B8C342 /* MBaseViewController.swift */; };
+		186EA1021CD05F9F00B8C342 /* Commen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA0F11CD05F9F00B8C342 /* Commen.swift */; };
+		186EA1031CD05F9F00B8C342 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA0F41CD05F9F00B8C342 /* HomeViewController.swift */; };
+		186EA1041CD05F9F00B8C342 /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA0F71CD05F9F00B8C342 /* CategoryHeader.swift */; };
+		186EA1051CD05F9F00B8C342 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA0F91CD05F9F00B8C342 /* MyInfoViewController.swift */; };
+		186EA1061CD05F9F00B8C342 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA0FB1CD05F9F00B8C342 /* MoreViewController.swift */; };
+		186EA1071CD05F9F00B8C342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA0FD1CD05F9F00B8C342 /* AppDelegate.swift */; };
+		186EA1081CD05F9F00B8C342 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA0FE1CD05F9F00B8C342 /* MainTabBarViewController.swift */; };
+		186EA1091CD05F9F00B8C342 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA1001CD05F9F00B8C342 /* ShopViewController.swift */; };
+		186EA10B1CD0621000B8C342 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA10A1CD0621000B8C342 /* UIView+extension.swift */; };
+		186EA10E1CD06C8700B8C342 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA10D1CD06C8700B8C342 /* UIViewHelper.swift */; };
+		186EA1101CD0872B00B8C342 /* RobBuyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA10F1CD0872B00B8C342 /* RobBuyHeader.swift */; };
+		18DC98651CD0AC2A006F3F21 /* MeiTuanNetUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC98641CD0AC2A006F3F21 /* MeiTuanNetUrl.swift */; };
 		18E9354C1CBE2AE200A97828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E9354B1CBE2AE200A97828 /* Assets.xcassets */; };
 		18E9354F1CBE2AE200A97828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9354D1CBE2AE200A97828 /* LaunchScreen.storyboard */; };
 		18E9355A1CBE2AE200A97828 /* MeiTuanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E935591CBE2AE200A97828 /* MeiTuanTests.swift */; };
 		18E935651CBE2AE300A97828 /* MeiTuanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E935641CBE2AE300A97828 /* MeiTuanUITests.swift */; };
-		18E935731CBE2CED00A97828 /* Commen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E935721CBE2CED00A97828 /* Commen.swift */; };
-		18E935771CBE33CF00A97828 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E935761CBE33CF00A97828 /* HomeViewController.swift */; };
-		18E935791CBE341200A97828 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E935781CBE341200A97828 /* ShopViewController.swift */; };
-		18E9357C1CBE347800A97828 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9357B1CBE347800A97828 /* MainTabBarViewController.swift */; };
-		18E9357E1CBE46CA00A97828 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9357D1CBE46CA00A97828 /* MyInfoViewController.swift */; };
-		18E935801CBE46DC00A97828 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9357F1CBE46DC00A97828 /* MoreViewController.swift */; };
-		18FFCB1A1CCDF82C005250C5 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFCB191CCDF82C005250C5 /* CategoryItemView.swift */; };
-		18FFCB1C1CCDFC69005250C5 /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFCB1B1CCDFC69005250C5 /* CategoryHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181F65231CCF8A69005DC6C0 /* MBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBaseViewController.swift; sourceTree = "<group>"; };
+		186EA0EF1CD05F9F00B8C342 /* MBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBaseViewController.swift; sourceTree = "<group>"; };
+		186EA0F11CD05F9F00B8C342 /* Commen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commen.swift; sourceTree = "<group>"; };
+		186EA0F41CD05F9F00B8C342 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		186EA0F71CD05F9F00B8C342 /* CategoryHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
+		186EA0F91CD05F9F00B8C342 /* MyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		186EA0FB1CD05F9F00B8C342 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		186EA0FD1CD05F9F00B8C342 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186EA0FE1CD05F9F00B8C342 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		186EA1001CD05F9F00B8C342 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		186EA10A1CD0621000B8C342 /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		186EA10D1CD06C8700B8C342 /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		186EA10F1CD0872B00B8C342 /* RobBuyHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobBuyHeader.swift; sourceTree = "<group>"; };
+		18DC98641CD0AC2A006F3F21 /* MeiTuanNetUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeiTuanNetUrl.swift; sourceTree = "<group>"; };
 		18E935411CBE2AE200A97828 /* MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18E935441CBE2AE200A97828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E9354B1CBE2AE200A97828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E9354E1CBE2AE200A97828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E935501CBE2AE200A97828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,14 +67,6 @@
 		18E935601CBE2AE300A97828 /* MeiTuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E935641CBE2AE300A97828 /* MeiTuanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiTuanUITests.swift; sourceTree = "<group>"; };
 		18E935661CBE2AE300A97828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18E935721CBE2CED00A97828 /* Commen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commen.swift; sourceTree = "<group>"; };
-		18E935761CBE33CF00A97828 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		18E935781CBE341200A97828 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
-		18E9357B1CBE347800A97828 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
-		18E9357D1CBE46CA00A97828 /* MyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
-		18E9357F1CBE46DC00A97828 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		18FFCB191CCDF82C005250C5 /* CategoryItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
-		18FFCB1B1CCDFC69005250C5 /* CategoryHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +94,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186EA0EE1CD05F9F00B8C342 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				186EA0EF1CD05F9F00B8C342 /* MBaseViewController.swift */,
+			);
+			name = Base;
+			path = MeiTuan/Base;
+			sourceTree = "<group>";
+		};
+		186EA0F01CD05F9F00B8C342 /* Commen */ = {
+			isa = PBXGroup;
+			children = (
+				186EA0F11CD05F9F00B8C342 /* Commen.swift */,
+				186EA10A1CD0621000B8C342 /* UIView+extension.swift */,
+				186EA10D1CD06C8700B8C342 /* UIViewHelper.swift */,
+				18DC98641CD0AC2A006F3F21 /* MeiTuanNetUrl.swift */,
+			);
+			name = Commen;
+			path = MeiTuan/Commen;
+			sourceTree = "<group>";
+		};
+		186EA0F21CD05F9F00B8C342 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				186EA0F31CD05F9F00B8C342 /* Controller */,
+				186EA0F51CD05F9F00B8C342 /* Model */,
+				186EA0F61CD05F9F00B8C342 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		186EA0F31CD05F9F00B8C342 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				186EA0F41CD05F9F00B8C342 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		186EA0F51CD05F9F00B8C342 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		186EA0F61CD05F9F00B8C342 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				186EA0F71CD05F9F00B8C342 /* CategoryHeader.swift */,
+				186EA10F1CD0872B00B8C342 /* RobBuyHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		186EA0F81CD05F9F00B8C342 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				186EA0F91CD05F9F00B8C342 /* MyInfoViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		186EA0FA1CD05F9F00B8C342 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				186EA0FB1CD05F9F00B8C342 /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		186EA0FC1CD05F9F00B8C342 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				186EA0FD1CD05F9F00B8C342 /* AppDelegate.swift */,
+				186EA0FE1CD05F9F00B8C342 /* MainTabBarViewController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		186EA0FF1CD05F9F00B8C342 /* Seller */ = {
+			isa = PBXGroup;
+			children = (
+				186EA1001CD05F9F00B8C342 /* ShopViewController.swift */,
+			);
+			path = Seller;
+			sourceTree = "<group>";
+		};
 		18E935381CBE2AE200A97828 = {
 			isa = PBXGroup;
 			children = (
 				18E935431CBE2AE200A97828 /* MeiTuan */,
+				186EA0EE1CD05F9F00B8C342 /* Base */,
+				186EA0F01CD05F9F00B8C342 /* Commen */,
 				18E9357A1CBE341D00A97828 /* Sourse */,
 				18E935581CBE2AE200A97828 /* MeiTuanTests */,
 				18E935631CBE2AE300A97828 /* MeiTuanUITests */,
@@ -112,16 +208,11 @@
 		18E935431CBE2AE200A97828 /* MeiTuan */ = {
 			isa = PBXGroup;
 			children = (
-				18E935441CBE2AE200A97828 /* AppDelegate.swift */,
-				18E935721CBE2CED00A97828 /* Commen.swift */,
-				18E935761CBE33CF00A97828 /* HomeViewController.swift */,
-				18E935781CBE341200A97828 /* ShopViewController.swift */,
-				18E9357D1CBE46CA00A97828 /* MyInfoViewController.swift */,
-				18E9357F1CBE46DC00A97828 /* MoreViewController.swift */,
-				18E9357B1CBE347800A97828 /* MainTabBarViewController.swift */,
-				18FFCB191CCDF82C005250C5 /* CategoryItemView.swift */,
-				18FFCB1B1CCDFC69005250C5 /* CategoryHeader.swift */,
-				181F65231CCF8A69005DC6C0 /* MBaseViewController.swift */,
+				186EA0F21CD05F9F00B8C342 /* Home */,
+				186EA0F81CD05F9F00B8C342 /* Mine */,
+				186EA0FA1CD05F9F00B8C342 /* More */,
+				186EA0FC1CD05F9F00B8C342 /* Root */,
+				186EA0FF1CD05F9F00B8C342 /* Seller */,
 			);
 			path = MeiTuan;
 			sourceTree = "<group>";
@@ -285,16 +376,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E935771CBE33CF00A97828 /* HomeViewController.swift in Sources */,
-				18FFCB1C1CCDFC69005250C5 /* CategoryHeader.swift in Sources */,
-				18FFCB1A1CCDF82C005250C5 /* CategoryItemView.swift in Sources */,
-				18E935791CBE341200A97828 /* ShopViewController.swift in Sources */,
-				18E9357E1CBE46CA00A97828 /* MyInfoViewController.swift in Sources */,
-				18E9357C1CBE347800A97828 /* MainTabBarViewController.swift in Sources */,
-				18E935801CBE46DC00A97828 /* MoreViewController.swift in Sources */,
-				181F65241CCF8A69005DC6C0 /* MBaseViewController.swift in Sources */,
-				18E935731CBE2CED00A97828 /* Commen.swift in Sources */,
-				18E935451CBE2AE200A97828 /* AppDelegate.swift in Sources */,
+				186EA10B1CD0621000B8C342 /* UIView+extension.swift in Sources */,
+				186EA10E1CD06C8700B8C342 /* UIViewHelper.swift in Sources */,
+				186EA1021CD05F9F00B8C342 /* Commen.swift in Sources */,
+				18DC98651CD0AC2A006F3F21 /* MeiTuanNetUrl.swift in Sources */,
+				186EA1081CD05F9F00B8C342 /* MainTabBarViewController.swift in Sources */,
+				186EA1091CD05F9F00B8C342 /* ShopViewController.swift in Sources */,
+				186EA1101CD0872B00B8C342 /* RobBuyHeader.swift in Sources */,
+				186EA1011CD05F9F00B8C342 /* MBaseViewController.swift in Sources */,
+				186EA1051CD05F9F00B8C342 /* MyInfoViewController.swift in Sources */,
+				186EA1061CD05F9F00B8C342 /* MoreViewController.swift in Sources */,
+				186EA1071CD05F9F00B8C342 /* AppDelegate.swift in Sources */,
+				186EA1041CD05F9F00B8C342 /* CategoryHeader.swift in Sources */,
+				186EA1031CD05F9F00B8C342 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MeiTuan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Duxuechao.MeiTuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MeiTuan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Duxuechao.MeiTuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
