@@ -19,6 +19,7 @@
 		186EA10B1CD0621000B8C342 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA10A1CD0621000B8C342 /* UIView+extension.swift */; };
 		186EA10E1CD06C8700B8C342 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA10D1CD06C8700B8C342 /* UIViewHelper.swift */; };
 		186EA1101CD0872B00B8C342 /* RobBuyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA10F1CD0872B00B8C342 /* RobBuyHeader.swift */; };
+		18D890E51CD33362005BAA62 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D890E41CD33362005BAA62 /* TestModel.m */; };
 		18DC98651CD0AC2A006F3F21 /* MeiTuanNetUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC98641CD0AC2A006F3F21 /* MeiTuanNetUrl.swift */; };
 		18E9354C1CBE2AE200A97828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E9354B1CBE2AE200A97828 /* Assets.xcassets */; };
 		18E9354F1CBE2AE200A97828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9354D1CBE2AE200A97828 /* LaunchScreen.storyboard */; };
@@ -57,6 +58,9 @@
 		186EA10A1CD0621000B8C342 /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
 		186EA10D1CD06C8700B8C342 /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
 		186EA10F1CD0872B00B8C342 /* RobBuyHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobBuyHeader.swift; sourceTree = "<group>"; };
+		18D890E21CD331D6005BAA62 /* MeiTuan+bridging+Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MeiTuan+bridging+Header.h"; sourceTree = "<group>"; };
+		18D890E31CD33362005BAA62 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		18D890E41CD33362005BAA62 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		18DC98641CD0AC2A006F3F21 /* MeiTuanNetUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeiTuanNetUrl.swift; sourceTree = "<group>"; };
 		18E935411CBE2AE200A97828 /* MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E9354B1CBE2AE200A97828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -215,11 +219,14 @@
 		18E935431CBE2AE200A97828 /* MeiTuan */ = {
 			isa = PBXGroup;
 			children = (
+				18D890E21CD331D6005BAA62 /* MeiTuan+bridging+Header.h */,
 				186EA0F21CD05F9F00B8C342 /* Home */,
 				186EA0F81CD05F9F00B8C342 /* Mine */,
 				186EA0FA1CD05F9F00B8C342 /* More */,
 				186EA0FC1CD05F9F00B8C342 /* Root */,
 				186EA0FF1CD05F9F00B8C342 /* Seller */,
+				18D890E31CD33362005BAA62 /* TestModel.h */,
+				18D890E41CD33362005BAA62 /* TestModel.m */,
 			);
 			path = MeiTuan;
 			sourceTree = "<group>";
@@ -456,6 +463,7 @@
 				186EA1021CD05F9F00B8C342 /* Commen.swift in Sources */,
 				18DC98651CD0AC2A006F3F21 /* MeiTuanNetUrl.swift in Sources */,
 				186EA1081CD05F9F00B8C342 /* MainTabBarViewController.swift in Sources */,
+				18D890E51CD33362005BAA62 /* TestModel.m in Sources */,
 				186EA1091CD05F9F00B8C342 /* ShopViewController.swift in Sources */,
 				186EA1101CD0872B00B8C342 /* RobBuyHeader.swift in Sources */,
 				186EA1011CD05F9F00B8C342 /* MBaseViewController.swift in Sources */,
@@ -603,6 +611,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Duxuechao.MeiTuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeiTuan/MeiTuan+bridging+Header.h";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Debug;
 		};
@@ -616,6 +626,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Duxuechao.MeiTuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeiTuan/MeiTuan+bridging+Header.h";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Release;
 		};

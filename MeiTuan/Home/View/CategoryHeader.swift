@@ -10,6 +10,7 @@ import UIKit
 // MARK: ScrollHeader
 class CategoryHeader: UIView{
     
+    
     private var headScrollView : UIScrollView  = UIScrollView()
     private var pageControll   : UIPageControl = UIPageControl()
     private var homePageArray  = Array<(cateImage:String,cateTitle:String)>()
@@ -17,6 +18,7 @@ class CategoryHeader: UIView{
     override init(frame: CGRect)
     {
         super.init(frame: frame)
+        
         
         headScrollView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height)
         headScrollView.backgroundColor = UIColor.whiteColor()
