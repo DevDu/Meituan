@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface TestModel : NSObject
-
+@property (nonatomic,copy) NSString * test;
 @end
